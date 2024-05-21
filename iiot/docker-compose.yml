@@ -97,6 +97,6 @@ secrets:
     file: secrets/db-root-password
 
 volumes:
-  gateway-data:
-  gateway-edge1-data:
+  gateway-data: ./gw-data/gateway
+  gateway-edge1-data: ./gw-data/edge1
   db-data:
