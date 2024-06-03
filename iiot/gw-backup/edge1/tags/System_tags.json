@@ -1,0 +1,350 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "Gateway",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "SystemName",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "UptimeSeconds",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Performance",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Memory Usage",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Disk Utilization",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Available Disk Space (MB)",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Memory Utilization",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Max Memory",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "CPU Usage",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Sessions",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "SessionCount",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "CurrentDateTime",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Alarming",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Active and Acked",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Clear and Unacked",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Clear and Acked",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Active and Unacked",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "OPC",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Connections",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Ignition OPC UA Server",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Enabled",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Connected",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "State",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Devices",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "WTG_Sim",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Enabled",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Name",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Description",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Status",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Redundancy",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "IsActive",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Connection",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "PeerId",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "IsConnected",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "ActivityLevel",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Role",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "IsMaster",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "LicenseState",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Timezone",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "StoreAndForward",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "edge historian",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Dropped",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Quarantined",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Available",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Memory Buffer",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "PendingRecords",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "QuarantinedRecords",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "CanQuarantine",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "TakeMetrics",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Throughput",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "MaxDuration",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "TimeUnit",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "AverageDuration",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "Total",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "MinDuration",
+                          "tagType": "AtomicTag"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "MaxRecords",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "StorageMetrics",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Throughput",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "MaxDuration",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "AverageDuration",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "TimeUnit",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "MinDuration",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "Total",
+                          "tagType": "AtomicTag"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ForwardMetrics",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Throughput",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "TimeUnit",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "MinDuration",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "MaxDuration",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "Total",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "AverageDuration",
+                          "tagType": "AtomicTag"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DroppedRecords",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "Available",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "IsStore",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "Local Storage",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "Available",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "name": "IsStore",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

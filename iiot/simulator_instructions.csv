@@ -1,0 +1,69 @@
+Time Interval, Browse Path, Value Source, Data Type
+0,ARK/A01/RotorSpeed,"random(0,30,true)",Int16
+0,ARK/A01/WindSpeed,"random(0,25,true)",Float
+0,ARK/A01/PowerOutput,"random(0,3000,true)",Float
+0,ARK/A01/YawAngle,"random(0,360,true)",Int16
+0,ARK/A01/BladePitchAngle,"random(0,90,true)",Int16
+0,ARK/A01/GeneratorTemperature,"random(0,120,true)",Int16
+0,ARK/A01/GearboxTemperature,"random(0,120,true)",Int16
+0,ARK/A01/NacelleTemperature,"random(0,120,true)",Int16
+0,ARK/A01/AmbientTemperature,"random(-50,50,true)",Int16
+0,ARK/A01/Vibration,"random(0,10,true)",Int16
+0,ARK/A01/HydraulicPressure,"random(0,300,true)",Int16
+0,ARK/A01/Humidity,"random(0,100,true)",Int16
+0,ARK/A01/TurbineStatus,"list(""Running"", ""Running"",""Running"",""Running"",""Running"",""Paused"",Running"",""Running"",""Running"",""Stopped"" , ""Stopped"", ""Stopped"",true)",String
+0,ARK/A01/ConnectionState,"list(1,1,1,1,1,1,0,1,true)",Boolean
+0,ARK/B02/RotorSpeed,"random(0,30,true)",Int16
+0,ARK/B02/WindSpeed,"random(0,25,true)",Float
+0,ARK/B02/PowerOutput,"random(0,3000,true)",Float
+0,ARK/B02/YawAngle,"random(0,360,true)",Int16
+0,ARK/B02/BladePitchAngle,"random(0,90,true)",Int16
+0,ARK/B02/GeneratorTemperature,"random(0,120,true)",Int16
+0,ARK/B02/GearboxTemperature,"random(0,120,true)",Int16
+0,ARK/B02/NacelleTemperature,"random(0,120,true)",Int16
+0,ARK/B02/AmbientTemperature,"random(-50,50,true)",Int16
+0,ARK/B02/Vibration,"random(0,10,true)",Int16
+0,ARK/B02/HydraulicPressure,"random(0,300,true)",Int16
+0,ARK/B02/Humidity,"random(0,100,true)",Int16
+0,ARK/B02/TurbineStatus,"list(""Running"", ""Running"",""Running"",""Running"",""Running"",""Paused"",Running"",""Running"",""Running"",""Stopped"" , ""Stopped"", ""Stopped"",true)",String
+0,ARK/B02/ConnectionState,"list(1,1,1,1,1,1,0,1,true)",Boolean
+0,ARK/D02a/RotorSpeed,"random(0,30,true)",Int16
+0,ARK/D02a/WindSpeed,"random(0,25,true)",Float
+0,ARK/D02a/PowerOutput,"random(0,3000,true)",Float
+0,ARK/D02a/YawAngle,"random(0,360,true)",Int16
+0,ARK/D02a/BladePitchAngle,"random(0,90,true)",Int16
+0,ARK/D02a/GeneratorTemperature,"random(0,120,true)",Int16
+0,ARK/D02a/GearboxTemperature,"random(0,120,true)",Int16
+0,ARK/D02a/NacelleTemperature,"random(0,120,true)",Int16
+0,ARK/D02a/AmbientTemperature,"random(-50,50,true)",Int16
+0,ARK/D02a/Vibration,"random(0,10,true)",Int16
+0,ARK/D02a/HydraulicPressure,"random(0,300,true)",Int16
+0,ARK/D02a/Humidity,"random(0,100,true)",Int16
+0,ARK/D02a/TurbineStatus,"list(""Running"", ""Running"",""Running"",""Running"",""Running"",""Paused"",Running"",""Running"",""Running"",""Stopped"" , ""Stopped"", ""Stopped"",true)",String
+0,ARK/D02a/ConnectionState,"list(1,1,1,1,1,1,0,1,true)",Boolean
+0,RGW/AA03/RotSpd,"random(0,30,true)",Int16
+0,RGW/AA03/WindSpd,"random(0,25,true)",Float
+0,RGW/AA03/ActPwr,"random(0,2000,true)",Float
+0,RGW/AA03/YawAng,"random(0,360,true)",Int16
+0,RGW/AA03/BlPtAng,"random(0,90,true)",Int16
+0,RGW/AA03/GenTmp,"random(0,120,true)",Int16
+0,RGW/AA03/GbxTmp,"random(0,120,true)",Int16
+0,RGW/AA03/NacTmp,"random(0,120,true)",Int16
+0,RGW/AA03/AmbTmp,"random(-50,50,true)",Int16
+0,RGW/AA03/GenSpd,"random(0,1800,true)",Int16
+0,RGW/AA03/HydPres,"random(0,300,true)",Int16
+0,RGW/AA03/RH,"random(0,100,true)",Int16
+0,RGW/AA03/State,"list(""Running"", ""Running"",""Running"",""Running"",""Running"",""Paused"",Running"",""Running"",""Running"",""Stopped"" , ""Stopped"", ""Stopped"",true)",String
+0,RGW/NN14/RotSpd,"random(0,30,true)",Int16
+0,RGW/NN14/WindSpd,"random(0,25,true)",Float
+0,RGW/NN14/ActPwr,"random(0,2000,true)",Float
+0,RGW/NN14/YawAng,"random(0,360,true)",Int16
+0,RGW/NN14/BlPtAng,"random(0,90,true)",Int16
+0,RGW/NN14/GenTmp,"random(0,120,true)",Int16
+0,RGW/NN14/GbxTmp,"random(0,120,true)",Int16
+0,RGW/NN14/NacTmp,"random(0,120,true)",Int16
+0,RGW/NN14/AmbTmp,"random(-50,50,true)",Int16
+0,RGW/NN14/GenSpd,"random(0,1800,true)",Int16
+0,RGW/NN14/HydPres,"random(0,300,true)",Int16
+0,RGW/NN14/RH,"random(0,100,true)",Int16
+0,RGW/NN14/State,"list(""Running"", ""Running"",""Running"",""Running"",""Running"",""Paused"",Running"",""Running"",""Running"",""Stopped"" , ""Stopped"", ""Stopped"",true)",String

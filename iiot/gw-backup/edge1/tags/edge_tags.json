@@ -1,0 +1,603 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "valueSource": "expr",
+      "expression": "getSecond(now(0))",
+      "name": "CurrentTimeSeconds",
+      "executionMode": "FixedRate",
+      "tagType": "AtomicTag"
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder"
+    },
+    {
+      "name": "RGW",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "AA03",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/RH",
+              "dataType": "Int2",
+              "name": "RH",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/NacTmp",
+              "dataType": "Int2",
+              "name": "NacTmp",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/GbxTmp",
+              "dataType": "Int2",
+              "name": "GbxTmp",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/GenSpd",
+              "dataType": "Int2",
+              "name": "GenSpd",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/WindSpd",
+              "dataType": "Float4",
+              "name": "WindSpd",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/RotSpd",
+              "dataType": "Int2",
+              "name": "RotSpd",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/BlPtAng",
+              "dataType": "Int2",
+              "name": "BlPtAng",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/State",
+              "dataType": "String",
+              "name": "State",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/ActPwr",
+              "dataType": "Float4",
+              "name": "ActPwr",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/YawAng",
+              "dataType": "Int2",
+              "name": "YawAng",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/HydPres",
+              "dataType": "Int2",
+              "name": "HydPres",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/GenTmp",
+              "dataType": "Int2",
+              "name": "GenTmp",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/AA03/AmbTmp",
+              "dataType": "Int2",
+              "name": "AmbTmp",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "NN14",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/GbxTmp",
+              "dataType": "Int2",
+              "name": "GbxTmp",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/AmbTmp",
+              "dataType": "Int2",
+              "name": "AmbTmp",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/RotSpd",
+              "dataType": "Int2",
+              "name": "RotSpd",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/BlPtAng",
+              "dataType": "Int2",
+              "name": "BlPtAng",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/State",
+              "dataType": "String",
+              "name": "State",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/NacTmp",
+              "dataType": "Int2",
+              "name": "NacTmp",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/RH",
+              "dataType": "Int2",
+              "name": "RH",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/YawAng",
+              "dataType": "Int2",
+              "name": "YawAng",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/HydPres",
+              "dataType": "Int2",
+              "name": "HydPres",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/GenTmp",
+              "dataType": "Int2",
+              "name": "GenTmp",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/GenSpd",
+              "dataType": "Int2",
+              "name": "GenSpd",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/WindSpd",
+              "dataType": "Float4",
+              "name": "WindSpd",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]RGW/NN14/ActPwr",
+              "dataType": "Float4",
+              "name": "ActPwr",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ARK",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "B02",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/WindSpeed",
+              "dataType": "Float4",
+              "name": "WindSpeed",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/GeneratorTemperature",
+              "dataType": "Int2",
+              "name": "GeneratorTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/AmbientTemperature",
+              "dataType": "Int2",
+              "name": "AmbientTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/PowerOutput",
+              "dataType": "Float4",
+              "name": "PowerOutput",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/GearboxTemperature",
+              "dataType": "Int2",
+              "name": "GearboxTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/ConnectionState",
+              "dataType": "Boolean",
+              "name": "ConnectionState",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/Humidity",
+              "dataType": "Int2",
+              "name": "Humidity",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/HydraulicPressure",
+              "dataType": "Int2",
+              "name": "HydraulicPressure",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/NacelleTemperature",
+              "dataType": "Int2",
+              "name": "NacelleTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/YawAngle",
+              "dataType": "Int2",
+              "name": "YawAngle",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/BladePitchAngle",
+              "dataType": "Int2",
+              "name": "BladePitchAngle",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/RotorSpeed",
+              "dataType": "Int2",
+              "name": "RotorSpeed",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/TurbineStatus",
+              "dataType": "String",
+              "name": "TurbineStatus",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/B02/Vibration",
+              "dataType": "Int2",
+              "name": "Vibration",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "D02a",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/Humidity",
+              "dataType": "Int2",
+              "name": "Humidity",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/GearboxTemperature",
+              "dataType": "Int2",
+              "name": "GearboxTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/ConnectionState",
+              "dataType": "Boolean",
+              "name": "ConnectionState",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/GeneratorTemperature",
+              "dataType": "Int2",
+              "name": "GeneratorTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/TurbineStatus",
+              "dataType": "String",
+              "name": "TurbineStatus",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/WindSpeed",
+              "dataType": "Float4",
+              "name": "WindSpeed",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/Vibration",
+              "dataType": "Int2",
+              "name": "Vibration",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/YawAngle",
+              "dataType": "Int2",
+              "name": "YawAngle",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/NacelleTemperature",
+              "dataType": "Int2",
+              "name": "NacelleTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/RotorSpeed",
+              "dataType": "Int2",
+              "name": "RotorSpeed",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/AmbientTemperature",
+              "dataType": "Int2",
+              "name": "AmbientTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/BladePitchAngle",
+              "dataType": "Int2",
+              "name": "BladePitchAngle",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/PowerOutput",
+              "dataType": "Float4",
+              "name": "PowerOutput",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/D02a/HydraulicPressure",
+              "dataType": "Int2",
+              "name": "HydraulicPressure",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        },
+        {
+          "name": "A01",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/ConnectionState",
+              "dataType": "Boolean",
+              "name": "ConnectionState",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/Humidity",
+              "dataType": "Int2",
+              "name": "Humidity",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/GearboxTemperature",
+              "dataType": "Int2",
+              "name": "GearboxTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/Vibration",
+              "dataType": "Int2",
+              "name": "Vibration",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/AmbientTemperature",
+              "dataType": "Int2",
+              "name": "AmbientTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/WindSpeed",
+              "dataType": "Float4",
+              "name": "WindSpeed",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/TurbineStatus",
+              "dataType": "String",
+              "name": "TurbineStatus",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/RotorSpeed",
+              "dataType": "Int2",
+              "name": "RotorSpeed",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/GeneratorTemperature",
+              "dataType": "Int2",
+              "name": "GeneratorTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/BladePitchAngle",
+              "dataType": "Int2",
+              "name": "BladePitchAngle",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/YawAngle",
+              "dataType": "Int2",
+              "name": "YawAngle",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/NacelleTemperature",
+              "dataType": "Int2",
+              "name": "NacelleTemperature",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/HydraulicPressure",
+              "dataType": "Int2",
+              "name": "HydraulicPressure",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            },
+            {
+              "valueSource": "opc",
+              "opcItemPath": "ns\u003d1;s\u003d[WTG_Sim]ARK/A01/PowerOutput",
+              "dataType": "Float4",
+              "name": "PowerOutput",
+              "tagType": "AtomicTag",
+              "opcServer": "Ignition OPC UA Server"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

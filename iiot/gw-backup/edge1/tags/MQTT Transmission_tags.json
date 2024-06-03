@@ -1,0 +1,209 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "Transmission Control",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "value": 1717346591065,
+          "name": "Last Refresh",
+          "tagType": "AtomicTag"
+        },
+        {
+          "value": false,
+          "name": "Discover Edge Nodes",
+          "tagType": "AtomicTag"
+        },
+        {
+          "value": false,
+          "name": "Discover Edge Nodes Required",
+          "tagType": "AtomicTag"
+        },
+        {
+          "value": false,
+          "name": "Refresh",
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "Transmission Info",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "value": "Independent",
+          "name": "Redundancy Role",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Transmitters",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "default",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Edge Nodes",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "ExampleGroup",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Ignition-edge1",
+                          "tagType": "Folder",
+                          "tags": [
+                            {
+                              "accessRights": "Read_Only",
+                              "dataType": "Int8",
+                              "value": 344,
+                              "enabled": true,
+                              "name": "Total Mesg Xmit",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "accessRights": "Read_Only",
+                              "dataType": "Int8",
+                              "value": 236,
+                              "enabled": true,
+                              "name": "Largest Mesg Xmit",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "name": "MQTT Client",
+                              "tagType": "Folder",
+                              "tags": [
+                                {
+                                  "value": "gateway",
+                                  "name": "Primary Host ID",
+                                  "tagType": "AtomicTag"
+                                },
+                                {
+                                  "value": false,
+                                  "name": "Enable Latency Check",
+                                  "tagType": "AtomicTag"
+                                },
+                                {
+                                  "value": "tcp://gateway:1883",
+                                  "name": "Target Server URL",
+                                  "tagType": "AtomicTag"
+                                },
+                                {
+                                  "value": 1717346593387,
+                                  "name": "Online DateTime",
+                                  "tagType": "AtomicTag"
+                                },
+                                {
+                                  "value": 1717346592221,
+                                  "name": "Offline DateTime",
+                                  "tagType": "AtomicTag"
+                                },
+                                {
+                                  "value": "MT-2d378bc2-cfd2-4e94",
+                                  "name": "MQTT Client ID",
+                                  "tagType": "AtomicTag"
+                                },
+                                {
+                                  "value": -1,
+                                  "name": "Command Latency",
+                                  "tagType": "AtomicTag"
+                                },
+                                {
+                                  "value": true,
+                                  "name": "Online",
+                                  "tagType": "AtomicTag"
+                                }
+                              ]
+                            },
+                            {
+                              "accessRights": "Read_Only",
+                              "dataType": "DateTime",
+                              "enabled": true,
+                              "name": "Last Refresh",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "value": 0,
+                              "name": "Enable Tag Tracking",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "value": false,
+                              "name": "Refresh Edge Node",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "accessRights": "Read_Only",
+                              "dataType": "DateTime",
+                              "value": 1717346593397,
+                              "enabled": true,
+                              "name": "Largest Mesg Xmit Timestamp",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "accessRights": "Read_Only",
+                              "dataType": "Boolean",
+                              "value": true,
+                              "enabled": true,
+                              "name": "Refresh Required",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "value": 5,
+                              "name": "Tag Count",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "accessRights": "Read_Write",
+                              "dataType": "Boolean",
+                              "value": false,
+                              "enabled": true,
+                              "name": "Reset Metrics",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "value": 0,
+                              "name": "Tags Per Second",
+                              "tagType": "AtomicTag"
+                            },
+                            {
+                              "accessRights": "Read_Only",
+                              "dataType": "Int8",
+                              "value": 25429,
+                              "enabled": true,
+                              "name": "Total Bytes Xmit",
+                              "tagType": "AtomicTag"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "4.0.21 (b2024012622)",
+          "name": "Version",
+          "tagType": "AtomicTag"
+        },
+        {
+          "value": "Active",
+          "name": "Redundancy State",
+          "tagType": "AtomicTag"
+        },
+        {
+          "value": true,
+          "name": "Refresh Required",
+          "tagType": "AtomicTag"
+        }
+      ]
+    }
+  ]
+}

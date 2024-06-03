@@ -1,0 +1,409 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "Engine Info",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Devices",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "DevicesOnline",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "DevicesOffline",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "DeviceCount",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "MQTT Clients",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "MQTT Distributor",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Connected Nodes",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Enable Latency Check",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Messages Per Second",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "MQTT Client ID",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Online",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Server Latency",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Target Server URL",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Offline DateTime",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Message Processing Latency",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Primary Host State",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "gateway",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Payload",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "Retain",
+                          "tagType": "AtomicTag"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Legacy Primary Host State",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "gateway",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Retain",
+                          "tagType": "AtomicTag"
+                        },
+                        {
+                          "name": "Payload",
+                          "tagType": "AtomicTag"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Online DateTime",
+                  "tagType": "AtomicTag"
+                }
+              ]
+            },
+            {
+              "name": "Latency Check Period",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Chariot SCADA",
+              "tagType": "Folder"
+            }
+          ]
+        },
+        {
+          "name": "Version",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Redundancy Role",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "System-Wide Reset Info",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Tag Count",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Total Bytes Xmit",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Total Bytes Recvd",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Total Data Mesg Count",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Enable Tag Tracking",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Tags Per Second",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Edge Nodes",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Last Node To Disconnect",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "NodeUnitCount",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "NodesOnline",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Online Nodes",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Offline Nodes",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Last Node To Connect",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "NodesOffline",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Redundancy State",
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "Edge Nodes",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "ExampleGroup",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Ignition-edge1",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "historyTimeDeadband": 0,
+                  "dataType": "Int4",
+                  "historyTimeDeadbandUnits": "MS",
+                  "executionMode": "FixedRate",
+                  "sampleMode": "OnChange",
+                  "name": "CurrentTimeSeconds",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "Node Info",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Int8",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Birth Count",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Int8",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "seq",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "String",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Current Server",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Int8",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Death Count",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "String",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Transmission Version",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Int8",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Data Latency",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Int8",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "bdSeq",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Int8",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Total Bytes Xmit",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Int8",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Total Bytes Recvd",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "DateTime",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Offline DateTime",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "DateTime",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Online DateTime",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "String",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Message Schema",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Boolean",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Online",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Boolean",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Reset Info",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                },
+                {
+                  "name": "Node Control",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Boolean",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Next Server",
+                      "tagType": "AtomicTag"
+                    },
+                    {
+                      "historyTimeDeadband": 0,
+                      "dataType": "Boolean",
+                      "historyTimeDeadbandUnits": "MS",
+                      "sampleMode": "OnChange",
+                      "name": "Rebirth",
+                      "tagType": "AtomicTag"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Message Diagnostics",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Message",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Selected Node",
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "Engine Control",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Primary Host",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "ID",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Enabled",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder"
+    }
+  ]
+}

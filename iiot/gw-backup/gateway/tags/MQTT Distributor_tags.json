@@ -1,0 +1,38 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "Distributor Info",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Connected Clients",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Keep Inactive Clients",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "MQTT Clients",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Total Clients",
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "Distributor Control",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Enabled",
+          "tagType": "AtomicTag"
+        }
+      ]
+    }
+  ]
+}
